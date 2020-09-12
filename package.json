@@ -1,0 +1,27 @@
+{
+  "name": "entanglement-site",
+  "version": "0.0.1",
+  "description": "“Entanglement”, an interactive film by Hugh Guiney",
+  "main": "src/index.js",
+  "repository": "git@github.com:hguiney/entanglement-site.git",
+  "author": "Hugh Guiney <hugh@hughguiney.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "copy-webpack-plugin": "^6.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-hughx": "^0.0.4",
+    "eslint-plugin-import": "^2.22.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server"
+  }
+}
