@@ -1,0 +1,33 @@
+@import "~bootstrap/scss/bootstrap";
+
+html,
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  text-shadow: 1px 1px 1px black;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    linear-gradient(black, black), 
+    url('./assets/artificial-intelligence-4815728.jpg')
+  ;
+  background-blend-mode: normal, saturation;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  // background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* .center {} */
